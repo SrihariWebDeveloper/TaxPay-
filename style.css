@@ -1,0 +1,39 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: boder-box;
+}
+.form-fild{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid #ccc;
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+form{
+  margin: 0px 10px;
+}
+.final{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #ccc;
+  width: 400px;
+  border-radius: 10px;
+  display: none;
+} 
+#warning, #warning2, #warning3, #warning4{
+  display: flex;
+  float: right;
+  background: none;
+  height: 5px;
+  width: 160px;
+  border: none;
+  padding-bottom: 10px;
+  font-size: 10px;
+  display: none;
+}
